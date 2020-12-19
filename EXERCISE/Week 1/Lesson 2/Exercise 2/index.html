@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bai tap 2</title>
+	<style>
+		input[type=text]{
+			margin: 13px;
+		}
+	</style>
+</head>
+<body>
+	<form id="orderForm">
+		<h1 style="color: purple">A Simple Form</h1>
+		<h2 style="color: #ff4e5d">Form fundamental</h2>
+		<fieldset>
+			<legend>Customer Info</legend>
+				<label>Name:</label>
+				<input type="text" name="fullname" placeholder="Enter your name" size="50"><br>
+				<label>Telephone:</label>
+				<input type="text" name="phonenumber" placeholder="Pattern: 1-234-567-8910" size="50"><br>
+				<label>E-mail address:</label>
+				<input type="text" name="email" placeholder="Enter your email address" size="50"><br>
+				Gender: <input type="radio" id="male" name="gender" value="male">
+  						<label for="male">Male</label>
+  						<input type="radio" id="female" name="gender" value="female">
+  						<label for="female">Female</label><br>
+				Hobbies: <input type="checkbox" id="basketball" name="hobbies" value="basketball">
+						 <label for="basketball">Basketball</label>
+						 <input type="checkbox" id="football" name="hobbies" value="football">
+						 <label for="football">Football</label>
+						 <input type="checkbox" id="badminton" name="hobbies" value="badminton">
+						 <label for="badminton">Badminton</label>
+		</fieldset>
+		<fieldset>
+			<legend>Books</legend>
+				<label>Name:</label>
+				<input type="text" name="name"size="45"><label>Quantity(Maximun 5):<input type="number" name="Quantity" min="1" max="5"><br>
+		</fieldset>
+			<button type="sumbit" value="Sumbit">Sumbit</button>
+			<button type="reset" value="Reset">Reset</button>
+	</form>
+</body>
+</html>

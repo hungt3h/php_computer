@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bai tap 3</title>
+	<style>
+		form{
+			margin: 1px;
+		}
+	</style>
+</head>
+<body>
+	<h2>___________________________________</h2>
+	<h1>Travel reservation form</h1>
+	<h2>* denotes mandotory</h2>
+	<form action="manhhung.minhchuan@gmail.com">
+		<label for="fullname">Full name*:</label>
+		<br>
+		<input type="text" name="name" id="fullname" placeholder="FirstName LastName" size="17">
+		<br>
+		<label for="email address">Email address*:</label>
+		<br>
+		<input type="email" name="name" id="email address" size="17">
+		<br>
+		<label for="select tour package">Select Tour Package*:</label>
+		<br>
+		<select id="tour" name="tour">
+			<option value="goa">Goa</option>
+			<option value="pubg">Pubg</option>
+			<option value="lmht">LMHT</option>
+		</select>
+		<br>
+		<label for="adate">Arrival date*:</label>
+		<br>
+		<input type="text" id="arrival" name="date" placeholder="m/d/y" size="17">
+		<br>
+		<label for="number">Number of persons*:</label>
+		<br>
+		<input type="text" id="number" name="number" size="17">
+		<br>
+		<label for="avail">What would you want to avail?*</label>
+		<br>
+		<label for="boarding">Boarding</label>
+		<input type="checkbox" id="boarding" name="avail">
+		<br>
+		<label for="fooding">Fooding</label>
+		<input type="checkbox" id="fooding" name="avail">
+		<br>
+		<label for="sight seeing">Sight seeing</label>
+		<input type="checkbox" id="sight seeing" name="avail">
+		<br>
+		<label for="code">Discount Coupon code:</label>
+		<br>
+		<input type="text" id="code" name="code" size="17">
+		<br>
+		<label for="terms">Terms and conditions*</label>
+		<br>
+		<input type="radio" id="i agree" name="terms" value="i agree">
+		<label for="i agree">I agree</label>
+		<input type="radio" id="disagree" name="terms" value="aisagree">
+		<label for="i disagree">I disagree</label>
+		<br>
+		<button type="sumbit" value="sumbit">Complete reservation</button>
+	</form>
+</body>
+</html>

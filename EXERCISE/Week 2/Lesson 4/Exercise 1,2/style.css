@@ -1,0 +1,65 @@
+body{
+	font-family: Verdana;
+	background:#ff6633;
+}
+ul{
+	background-color: pink;
+	background-repeat: repeat-x;
+	border: 1px solid black;
+	width: 75%;
+	text-align: center;
+	list-style-type: none;
+	padding: 30px;
+	margin: auto;
+}
+#About{
+	display: inline;
+	padding: 5px;
+	background-color: yellow;
+	border: 1px solid black; 
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: pink;
+	background: purple; 
+}
+h1{
+	font-family: arial;
+	color: red;
+}
+h3{
+	color: white;
+	font-family: Courier New;
+}
+p.Stanford{
+	background: yellow;
+	text-align: center;
+	border: 1px dotted black;
+}
+div.wed{
+	background:cornsilk;
+	width: 50%;
+	border:3px dotted black;
+	margin:auto;
+	margin-top: 15px;
+	margin-bottom: 15px; 
+	padding: 15px; 
+}
+div.Last{
+	font-size: 12px;
+	background: #0ff;
+	width: 200px;
+	padding: 15px;
+	border: 1px solid black;
+	border-radius: 15px; 
+}
+input {
+	width: 92px;
+	height: 27px;
+	color: white;
+	border-radius: 7px;
+	background-color: blue;
+	border: 3px solid white;
+}
