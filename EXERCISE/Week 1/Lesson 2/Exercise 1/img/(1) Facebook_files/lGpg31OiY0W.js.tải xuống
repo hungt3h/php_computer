@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["X7Gv5"]); }
+
+__d("buildGroupCometRootRoute.entrypoint",["CometImageMediaType","JSResourceForInteraction","WebPixelRatio","createContentAreaCompoundEntryPointBuilder","qex","CometGroupRootQuery$Parameters"],(function(a,b,c,d,e,f){"use strict";a=b("createContentAreaCompoundEntryPointBuilder")(b("JSResourceForInteraction")("CometGroupRoot.react").__setRef("buildGroupCometRootRoute.entrypoint"),function(a){return{rootQueryReference:{parameters:b("CometGroupRootQuery$Parameters"),variables:{actorID:a.routeProps.actorID,groupID:a.routeProps.groupID,hasPersistentGroupJoinedStatus:(a=b("qex")._("1710311"))!=null?a:!1,imageMediaType:b("CometImageMediaType").get(),scale:b("WebPixelRatio").get()}}}});e.exports=a}),null);

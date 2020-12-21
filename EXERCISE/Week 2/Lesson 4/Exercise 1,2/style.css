@@ -18,12 +18,10 @@ ul{
 	background-color: yellow;
 	border: 1px solid black; 
 }
-a{
-	text-decoration: none;
-}
-a:hover{
+.list:hover{
 	color: pink;
-	background: purple; 
+	background: purple;
+	text-decoration: none;
 }
 h1{
 	font-family: arial;
@@ -38,7 +36,7 @@ p.Stanford{
 	text-align: center;
 	border: 1px dotted black;
 }
-div.wed{
+.wed{
 	background:cornsilk;
 	width: 50%;
 	border:3px dotted black;
@@ -47,7 +45,7 @@ div.wed{
 	margin-bottom: 15px; 
 	padding: 15px; 
 }
-div.Last{
+.Last{
 	font-size: 12px;
 	background: #0ff;
 	width: 200px;
@@ -62,4 +60,7 @@ input {
 	border-radius: 7px;
 	background-color: blue;
 	border: 3px solid white;
+}
+.date{
+	text-align: center;
 }
