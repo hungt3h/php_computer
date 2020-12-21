@@ -1,8 +1,8 @@
-body{
+body {
 	font-family: Verdana;
 	background:#ff6633;
 }
-ul{
+.link {
 	background-color: pink;
 	background-repeat: repeat-x;
 	border: 1px solid black;
@@ -12,31 +12,31 @@ ul{
 	padding: 30px;
 	margin: auto;
 }
-#About{
+#About {
 	display: inline;
 	padding: 5px;
 	background-color: yellow;
 	border: 1px solid black; 
 }
-.list:hover{
+.list:hover {
 	color: pink;
 	background: purple;
 	text-decoration: none;
 }
-h1{
+h1 {
 	font-family: arial;
 	color: red;
 }
-h3{
+h3 {
 	color: white;
 	font-family: Courier New;
 }
-p.Stanford{
+.Stanford {
 	background: yellow;
 	text-align: center;
 	border: 1px dotted black;
 }
-.wed{
+.wed {
 	background:cornsilk;
 	width: 50%;
 	border:3px dotted black;
@@ -45,7 +45,7 @@ p.Stanford{
 	margin-bottom: 15px; 
 	padding: 15px; 
 }
-.Last{
+.Last {
 	font-size: 12px;
 	background: #0ff;
 	width: 200px;
@@ -61,6 +61,23 @@ input {
 	background-color: blue;
 	border: 3px solid white;
 }
-.date{
+.date {
 	text-align: center;
+}
+.images {
+	list-style-type: none;
+	display: inline;
+}
+.link_photo {
+	background: blue;
+	border: 3px solid white;
+	width: 92px;
+	height: 27px;
+	border-radius: 9px;
+	padding: 4px;
+	text-align: center;
+}
+.show_photo {
+	color: white;
+	text-decoration: none;
 }
