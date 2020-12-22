@@ -7,18 +7,12 @@
 		input[type=text]{
 			margin: 13px;
 		}
-		.A_Simple_Form{
-			color: purple
-		}
-		.color_fundamental{
-			color: #ff4e5d
-		}
 	</style>
 </head>
 <body>
 	<form id="orderForm">
-		<h1 class="A_Simple_Form">A Simple Form</h1>
-		<h2 class="color_fundamental">Form fundamental</h2>
+		<h1 style="color: purple">A Simple Form</h1>
+		<h2 style="color: #ff4e5d">Form fundamental</h2>
 		<fieldset>
 			<legend>Customer Info</legend>
 				<label>Name:</label>
@@ -27,18 +21,16 @@
 				<input type="text" name="phonenumber" placeholder="Pattern: 1-234-567-8910" size="50"><br>
 				<label>E-mail address:</label>
 				<input type="text" name="email" placeholder="Enter your email address" size="50"><br>
-				<label>Gender:</label>
-				<input type="radio" id="male" name="gender" value="male">
-  				<label for="male">Male</label>
-  				<input type="radio" id="female" name="gender" value="female">
-  				<label for="female">Female</label><br>
-				<label>Hobbies:</label>
-				<input type="checkbox" id="basketball" name="hobbies" value="basketball">
-				<label for="basketball">Basketball</label>
-				<input type="checkbox" id="football" name="hobbies" value="football">
-				<label for="football">Football</label>
-				<input type="checkbox" id="badminton" name="hobbies" value="badminton">
-				<label for="badminton">Badminton</label>
+				Gender: <input type="radio" id="male" name="gender" value="male">
+  						<label for="male">Male</label>
+  						<input type="radio" id="female" name="gender" value="female">
+  						<label for="female">Female</label><br>
+				Hobbies: <input type="checkbox" id="basketball" name="hobbies" value="basketball">
+						 <label for="basketball">Basketball</label>
+						 <input type="checkbox" id="football" name="hobbies" value="football">
+						 <label for="football">Football</label>
+						 <input type="checkbox" id="badminton" name="hobbies" value="badminton">
+						 <label for="badminton">Badminton</label>
 		</fieldset>
 		<fieldset>
 			<legend>Books</legend>
