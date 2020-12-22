@@ -39,26 +39,18 @@ body {
 	width: 	70%;
 	padding: 5px;
 }
-.sid {
+.sid, .side, .sideb{
 	float: left;
   	width: 30%;
   	background-color:  #ffffcc;
   	margin-bottom: 12px;
   	margin-top: 12px;
 }
-.side {
-	float: left;
-  	width: 30%;
-  	background-color: #ffeeee;
-  	margin-bottom: 12px;
-  	margin-top: 12px;
+.side{
+	background-color:  #ffeeee;
 }
-.sideb {
-	float: left;
-  	width: 30%;
-  	background-color: #CCFFFF;
-  	margin-bottom: 12px;
-  	margin-top: 12px;
+.sideb{
+	background-color: #CCFFFF;
 }
 h2, p {
 	margin-bottom: 12px;
