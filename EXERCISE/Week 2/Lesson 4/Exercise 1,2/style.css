@@ -12,7 +12,7 @@ body {
 	padding: 30px;
 	margin: auto;
 }
-#About {
+.About {
 	display: inline;
 	padding: 5px;
 	background-color: yellow;

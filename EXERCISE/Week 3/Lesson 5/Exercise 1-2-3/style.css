@@ -1,0 +1,118 @@
+body{
+	font-family: 'lora', san-serif;
+
+}
+.header{
+	position: relative;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./Materials/header.jpg') ;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	background-position: center;
+}
+.text_inside{
+	color: white;
+	position: relative;
+	padding: 20px 20px 20px 20px;
+}
+.cs_193x{
+	font-size: 40px;
+	
+}
+.menu_items{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	padding-right: inherit;
+	cursor: pointer;
+}
+.items, .take_action{
+	display: inline;
+	margin: 15px;
+}
+.take_action{
+	border: 1px solid white;
+	border-radius: 100px;
+	padding: 10px 15px;
+	transition: all 0.3s ease
+}
+.take_action:hover{
+	background-color: white;
+	color: black;
+}
+.text_in_between{
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	right: 31%;
+}
+.backgroud_learn_more{
+	background-color:  #36b3a8;
+	border-radius: 100px;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+.backgroud_learn_more:hover{
+	opacity: 0.6;
+}
+.size_text{
+	font-size: 60px;
+	margin: 8px;
+}
+.body{
+	font-family: open-sans;
+	margin: 100px 125px 125px 125px;
+	text-align: center;
+}
+.firt_text{
+	font-size: 28px;
+	line-height: 36px;
+}
+.introduction_to_the_Earth{
+	width: 60%;
+	margin: 16px auto;
+}
+.images{
+	margin: 125px;
+}
+img{
+	width: calc(50% - 20px);
+}
+.title_about{
+	font-size: 25px;
+	color: rgb(61, 153, 145);
+	margin: 24px;
+	letter-spacing: 2px;
+	float: left;
+	width: 45%;
+}
+.title_take_action{
+	font-size: 25px;
+	color: rgb(61, 153, 145);
+	letter-spacing: 2px;
+	float: right;
+	width: 50%;
+}
+*{
+	box-sizing: border-box;
+}
+.photo_content_about{
+	width: 50%;
+	float: left;
+	margin: auto;
+}
+.photo_content_take{
+	width: 50%;
+	float: right;
+	margin: auto;
+}
+.footer{
+	color: white;
+	background-color: black;
+	text-align: center;
+	padding: 75px;
+	letter-spacing: 1px;
+}
