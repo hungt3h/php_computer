@@ -14,11 +14,10 @@ body{
 .text_inside{
 	color: white;
 	position: relative;
-	padding: 20px 20px 20px 20px;
 }
 .cs_193x{
 	font-size: 40px;
-	
+	padding: 20px 20px 20px 20px;
 }
 .menu_items{
 	position: absolute;
@@ -62,18 +61,19 @@ body{
 	font-size: 60px;
 	margin: 8px;
 }
-.body{
+.sidebar{
 	font-family: open-sans;
 	margin: 100px 125px 125px 125px;
 	text-align: center;
 }
-.firt_text{
+.text_size{
 	font-size: 28px;
 	line-height: 36px;
 }
-.introduction_to_the_Earth{
-	width: 60%;
+.introduction{
+	width: 40%;
 	margin: 16px auto;
+	font-size: 20px;
 }
 .images{
 	margin: 125px;
@@ -95,9 +95,6 @@ img{
 	letter-spacing: 2px;
 	float: right;
 	width: 50%;
-}
-*{
-	box-sizing: border-box;
 }
 .photo_content_about{
 	width: 50%;
