@@ -1,0 +1,44 @@
+.frames{
+	background-color: #ffe6f0;
+	border: 0.2px solid black;
+	width: 90%;
+	text-align: center;
+	margin: auto;
+}
+.note{
+	text-align: left;
+}
+.date, .question, .date-and-month, .choose-question, .information, .reset, .submit, .Repeat-password, .yes{
+	margin-top: 10px;
+}
+.information, .Repeat-password{
+	width: 96.5%;
+	height: 30px;
+}
+.gender{
+	float: left;
+	margin: 0px 0px 0px 17px;
+}
+.date, .question{
+	width: 92.8%;
+	height: 30px;
+}
+.date-and-month, .choose-question{
+	width: 40px;
+	height: 36px;
+}
+.signature{
+	width: 96.5%;
+	height: 45px;
+	margin-top: 10px;
+}
+.reset, .submit, .Repeat-password{
+	margin-bottom: 10px; 
+}
+.submit{
+	border: 1px solid #3385ff;
+	background-color: #3385ff;
+}
+.reset, .submit{
+	height: 30px;
+}

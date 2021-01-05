@@ -3,29 +3,38 @@
 	<head>
 		<title>Bai tap 3</title>
 		<style>
-			body{
+			body, .header{
 				font-family: Arial ;
 				background-color: green;
 			}
-			.student{
+			.color-student{
 				color: red;
 			}
-			.color_about{
+			.color_white{
 				color: white;
 			}
-			.last_updated{
+			.footer{
 				font-size: 12px 
+			}
+			.color-link{
+				color: rgb(153, 0, 204)
 			}
 		</style>
 	</head>
 	<body>
-		<h1 class="stundent">STUDENT</h1>
-		<h2 class="color_about">About me</h2>
-		<p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicyla tincidunt nunc eget varius. Sed consectetur dolor ligula. Nullam tincidunt rutrum consecteturr. Aenean elementum arcu et lorem viverra imperdiet ut ut massa. Fusce vel rhoncus risus. Curabitur et luctus purus. Nullam sit amet dictum sapien. Duis sit amet nibh sit amet purus sollicitudin ullamcorper ac vitae velit. Nam mollis tortor et massa elementum gavida. Cras quis mauris nec nisi pharetra sleifend id ultrices diam.</b></p>
-		<h2 class="color_about">About This Site</h2>
-		<p><b>Welcome to my in-class home page! As is the case with many webpages, mine is still <i>under construction</i>!</b></p>
-		<p><b>I created this page in a <a href="http://continuingstudies.stanford.edu/"; style="color: rgb(153, 0, 204);">Continuing Studies</a> class at <a href="http://www.stanford.edu/"; style="color: rgb(153, 0, 204)";>Stanford University</a>.</b></p>
-		<p><b>The wedsite for my class is http:<a href="//www.stanford.edu/group/csp/cs21/">//www.stanford.edu/group/csp/cs21/</a>.</b></p>
-		<p class="last_updated"><b><i>Last Updated: TODAY'S DATE<br>Copyright 2014, STUDENT</i></b></p>
+		<div class="header">
+			<h1 class="color-student">STUDENT</h1>
+			<div class="sidebar">
+				<h2 class="color_white">About me</h2>
+				<p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicyla tincidunt nunc eget varius. Sed consectetur dolor ligula. Nullam tincidunt rutrum consecteturr. Aenean elementum arcu et lorem viverra imperdiet ut ut massa. Fusce vel rhoncus risus. Curabitur et luctus purus. Nullam sit amet dictum sapien. Duis sit amet nibh sit amet purus sollicitudin ullamcorper ac vitae velit. Nam mollis tortor et massa elementum gavida. Cras quis mauris nec nisi pharetra sleifend id ultrices diam.</b></p>
+				<h2 class="color_white">About This Site</h2>
+				<p><b>Welcome to my in-class home page! As is the case with many webpages, mine is still <i>under construction</i>!</b></p>
+				<p><b>I created this page in a <a href="http://continuingstudies.stanford.edu/" class="color-link">Continuing Studies</a> class at <a href="http://www.stanford.edu/" class="color-link">Stanford University</a>.</b></p>
+				<p><b>The wedsite for my class is http:<a href="//www.stanford.edu/group/csp/cs21/">//www.stanford.edu/group/csp/cs21/</a>.</b></p>
+			</div>
+			<div class="footer">
+				<p><b><i>Last Updated: TODAY'S DATE<br>Copyright 2014, STUDENT</i></b></p>
+			</div>
+		</div>
 	</body>
 </html>

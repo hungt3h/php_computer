@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bai tap 4</title>
+</head>
+<body>
+		<p id="resuls"></p>
+	<script>
+		var a, b;			
+		function UCLN(x, y){
+			while(x != y){
+				if (x > y) {
+					x = x - y;
+				}
+				else{
+					y = y - x;
+				}
+			}
+			return x;
+		}
+		var a = prompt('1st');
+		var b = prompt('2nd');
+		document.write("UCLN:" + UCLN(a, b));
+		document.write("BCNN:" + a*b/UCLN(a, b));
+	</script>
+</body>
+</html>

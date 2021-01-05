@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bai tap 1</title>
+	<style>
+		.border{
+			width: 340px;
+		}
+		.knot{
+			border-radius: 4px;
+		}
+	</style>
+</head>
+<body>
+	<form action="#">
+		<fieldset class="border">
+			<table>
+				<tr>
+					<td>1st Number:</td>
+					<td><input type="text" name="1st_number" size="30px" id="number1" placeholder="Enter the first number"></td>
+				</tr>
+				<tr>
+					<td>2nd Number:</td>
+					<td><input type="text" name="2nd_number" size="30px" id="number2" placeholder="Enter the second number"></td>	
+				</tr>				
+			</table>
+			<input class="knot" type="button" name="multiply" value="Multiply" onclick="Calculate1()">
+			<input class="knot" type="button" name="divide" value="Divide" onclick="Calculate2()">
+			<p>The Result Is:</p>
+			<p id="displayed"></p>
+		</fieldset>
+		<script>
+			function Calculate1(){
+				var number1 = document.getElementById('number1').value;
+				var number2 = document.getElementById('number2').value;
+				var result = number1 * number2;
+				document.getElementById('displayed').innerHTML = result;
+			}
+			function Calculate2(){
+				var number1 = document.getElementById('number1').value;
+				var number2 = document.getElementById('number2').value;
+				var result = number1 / number2;
+				document.getElementById('displayed').innerHTML = result;
+			}
+		</script>
+	</form>
+</body>
+</html>

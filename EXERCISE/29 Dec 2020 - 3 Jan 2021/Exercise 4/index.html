@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bai tap 4</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="fontawesome/css/all.css" rel="stylesheet">
+</head>
+<body>
+	<form action="#" method="post">
+		<div class="frames">
+			<h2>Đăng ký thành viên</h2>
+			<p class="note">Để đăng ký thành viên, bạn cần khai báo tất cả các ô trống dưới đây</p>
+			<div class="personal-information">
+				<input class="information" type="text" name="middle-name" placeholder="Họ và tên đệm" required><br>
+				<input class="information" type="text" name="name" placeholder="Tên" required><br>
+				<input class="information" type="text" name="user-name" placeholder="Tên đăng nhập" required><br>
+				<input class="information" type="email" name="email" placeholder="Email" required><br>
+				<input class="information" type="password" name="password" placeholder="Mật khẩu" required><br>
+				<input class="Repeat-password" type="password" name="Repeat-password" placeholder="Lặp lại mật khẩu" required><br>
+				<label class="gender"><b>Giới tính</b></label>
+				<input type="radio" id="N/A" name="gender" value="N/A">
+				<label><b>N/A</b></label>
+				<input type="radio" id="nam" name="gender" value="nam">
+				<label><b>Nam</b></label>
+				<input type="radio" id="nu" name="gender" value="nu">
+				<label><b>Nữ</b></label><br>
+				<input class="date" type="text" name="birthday" placeholder="Ngày tháng năm sinh">
+				<button class="date-and-month" type="date"><i class="far fa-calendar-alt"></i></button><br>
+				<input class="signature" type="text" name="signature" placeholder="Chữ ký"><br>
+				<input class="question" type="text" name="question" placeholder="Câu hỏi bảo mật">
+				<button class="choose-question"><i class="fas fa-caret-down"></i></button><br>
+				<input class="information" type="text" name="answer" placeholder="Trả lời câu hỏi"><br>
+				<input type="checkbox" name="yes">
+				<label class="yes">Tôi đồng ý với</label>
+				<input class="yes" type="button" onclick="alert('Tìm hiểu thêm ^_^!')" value="Quy định đăng ký thành viên"><br>
+				<input class="reset" type="reset" name="reset" value="Thiết lập lại">
+				<input class="submit" type="submit" name="submit" value="Đăng ký thành viên">
+			</div>
+		</div>
+	</form>
+</body>
+	
+</html>
