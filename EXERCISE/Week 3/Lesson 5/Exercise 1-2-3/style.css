@@ -1,7 +1,7 @@
 body{
 	font-family: 'lora', san-serif;
 }
-.header{
+.container{
 	position: relative;
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./Materials/header.jpg');
 	height: 600px;

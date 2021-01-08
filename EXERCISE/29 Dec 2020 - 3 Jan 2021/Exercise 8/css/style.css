@@ -1,0 +1,12 @@
+.content{
+	background-color: #d2a679;
+}
+.content-left, .content-right{
+	border: 2px solid black;
+	width: 200px;
+}
+.image{
+	border: 2px solid black;
+	width: 45%;
+	height: 85px;
+}

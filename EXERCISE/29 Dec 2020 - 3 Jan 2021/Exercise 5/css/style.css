@@ -1,0 +1,21 @@
+.container{
+	border: 10px solid blue;
+	padding: 15px;
+}
+.text{
+	font-family: Broadway;
+}
+.import{
+	border: 1px solid #ffb3b3;
+}
+.register, .import, .login{
+	width: 100%;
+	height: 35px;
+}
+.register{
+	background-color: #33cc00;
+	border: 5px solid #33cc00;
+}
+.quetion{
+text-decoration: none;
+}
