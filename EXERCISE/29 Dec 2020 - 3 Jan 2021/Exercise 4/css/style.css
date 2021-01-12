@@ -5,10 +5,10 @@
 	text-align: center;
 	margin: auto;
 }
-.note{
+.request{
 	text-align: left;
 }
-.date, .question, .date-and-month, .choose-question, .information, .reset, .submit, .Repeat-password, .yes{
+.birthday, .question, .date-and-month, .choose-question, .information, .reset, .submit, .Repeat-password, .signature{
 	margin-top: 10px;
 }
 .information, .Repeat-password{
@@ -19,18 +19,18 @@
 	float: left;
 	margin: 0px 0px 0px 17px;
 }
-.date, .question{
-	width: 92.8%;
+.birthday, .question{
+	width: 92.5%;
 	height: 30px;
 }
-.date-and-month, .choose-question{
+.date-time, .choose-question{
 	width: 40px;
-	height: 36px;
+	height: 30px;
+	border: 1px solid black;
 }
 .signature{
 	width: 96.5%;
 	height: 45px;
-	margin-top: 10px;
 }
 .reset, .submit, .Repeat-password{
 	margin-bottom: 10px; 

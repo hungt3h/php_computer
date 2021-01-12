@@ -8,37 +8,39 @@
 </head>
 <body>
 	<div class="container">
-		<form action="#" method="post">
-			<div class="row">
-				<div class="col-12 col-sm col-md col-lg">
-					<img src="images\cv.jpg">
+		<div class="row">
+			<form action="#" method="post">
+				<div class="row">
+					<div class="col-12 col-sm col-md col-lg">
+						<img src="images\cv.jpg">
+					</div>
+					<div class="col-12 col-sm col-md col-lg">
+						<div class="mb-4">
+							<label  class="mb-2 text-primary">Họ tên<span class="text-danger">*</span></label><br>
+							<input class="import" type="text" name="fullname" required><br>
+						</div>
+						<div class="mb-4">
+							<label class="mb-2 text-primary">Email<span class="text-danger">*</span></label><br>
+							<input class="import" type="email" name="email" required><br>
+						</div>
+						<div class="mb-4">
+							<label class="mb-2 text-primary">Mật khẩu<span class="text-danger">*</span></label><br>
+							<input class="import" type="password" name="password" required><br>
+						</div>
+						<div class="mb-4">
+							<label class="text-primary">Mã xác thực<span class="text-danger">*</span></label>
+							<label class="mb-2 text text-primary">oyiaca</label>
+							<input class="import" type="text" name="verification-codes" required>
+						</div>
+						<div class="text-center mb-4">
+							<input class="register mb-4" type="submit" name="register" value="ĐĂNG KÝ MỞ TÀI KHOẢN">
+							<p class="mb-4 "><a href="#" class="question">Bạn đã có tài khoản?</a></p>
+							<input class="login" type="submit" name="login" value="ĐĂNG NHẬP">
+						</div>
+					</div>
 				</div>
-				<div class="col-12 col-sm col-md col-lg">
-					<div class="mb-4">
-						<label  class="mb-2 text-primary">Họ tên<span class="text-danger">*</span></label><br>
-						<input class="import" type="text" name="fullname" required><br>
-					</div>
-					<div class="mb-4">
-						<label class="mb-2 text-primary">Email<span class="text-danger">*</span></label><br>
-						<input class="import" type="email" name="email" required><br>
-					</div>
-					<div class="mb-4">
-						<label class="mb-2 text-primary">Mật khẩu<span class="text-danger">*</span></label><br>
-						<input class="import" type="password" name="password" required><br>
-					</div>
-					<div class="mb-4">
-						<label class="text-primary">Mã xác thực<span class="text-danger">*</span></label>
-						<label class="mb-2 text text-primary">oyiaca</label>
-						<input class="import" type="text" name="verification-codes" required>
-					</div>
-					<div class="text-center mb-4">
-						<input class="register mb-4" type="submit" name="register" value="ĐĂNG KÝ MỞ TÀI KHOẢN">
-						<p class="mb-4 "><a href="#" class="quetion">Bạn đã có tài khoản?</a></p>
-						<input class="login" type="submit" name="login" value="ĐĂNG NHẬP">
-					</div>
-				</div>
-			</div>
-		</form>
+			</form>
+		</div>
 	</div>
 </body>
 </html>

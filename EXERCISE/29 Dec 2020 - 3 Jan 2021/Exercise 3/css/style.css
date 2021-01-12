@@ -1,0 +1,30 @@
+.search{
+	background: #333333;
+	border: 1px solid #333333;
+	width: 240px;
+	height: 37px;
+	margin-top: 20px; 
+}
+.send{
+	border: 1px solid #00cccc;
+	background: #00cccc;
+	width: 47px;
+	height: 37px;
+}
+.footer{
+	background-color: #333333;
+	height: 80px;
+}
+.square{
+	font-size: 20px;
+    width: 160px;
+    height: 45px;
+    text-align: center;
+    background-color: rgb(112, 130, 180);
+}
+.square, .source{
+	line-height: 50px;
+}
+.source{
+	text-align: right;
+}

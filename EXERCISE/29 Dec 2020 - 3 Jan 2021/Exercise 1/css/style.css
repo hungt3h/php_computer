@@ -1,0 +1,6 @@
+.button-blue, .button-green{
+	color: white;
+	border: none;
+	border-radius: 100px;
+	padding: 8px 19px 8px 19px;
+}
