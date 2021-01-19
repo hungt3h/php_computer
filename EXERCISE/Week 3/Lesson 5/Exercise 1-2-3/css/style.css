@@ -1,0 +1,9 @@
+.content{
+	position: relative;
+	background-image: url('./Materials/header.jpg');
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	background-position: center;
+}

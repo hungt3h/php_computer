@@ -8,10 +8,10 @@
 .request{
 	text-align: left;
 }
-.birthday, .question, .date-and-month, .choose-question, .information, .reset, .submit, .Repeat-password, .signature{
+.birthday, .question, .date-time, .choose-question, .information, .reset, .submit, .repassword, .signature{
 	margin-top: 10px;
 }
-.information, .Repeat-password{
+.information, .repassword{
 	width: 96.5%;
 	height: 30px;
 }
@@ -32,7 +32,7 @@
 	width: 96.5%;
 	height: 45px;
 }
-.reset, .submit, .Repeat-password{
+.reset, .submit, .repassword{
 	margin-bottom: 10px; 
 }
 .submit{
