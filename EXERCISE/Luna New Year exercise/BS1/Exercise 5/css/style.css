@@ -1,0 +1,13 @@
+.container{
+	border-top: 3px solid red;
+	background-color: #f2f2f2;
+}
+.logo{
+	font-family: Brush Script MT;
+	width: 4em;
+	height: 4em;
+	border: none;
+	border-radius: 79px;
+	font-size: 33px;
+	color: white;
+}

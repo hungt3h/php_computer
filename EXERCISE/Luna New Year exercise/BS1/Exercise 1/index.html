@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bai tap 1</title>
+	<link rel="stylesheet" type="text/css" href="css\style.css">
+	<link rel="stylesheet" type="text/css" href="css\bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md mt-3">
+				<form action="#" method="post" name="myForm">
+					<label>First name</label><br>
+					<input class="information mt-3" type="text" name="fname" id="fname"><br>
+					<label class="mt-3">Last name</label><br>
+					<input class="information mt-3" type="text" name="lname" id="lname"><br>
+					<div class="mt-3">
+						<input type="radio" name="gender" value="male">
+						<label>Male</label>
+						<input type="radio" name="gender" value="female">
+						<label>Female</label><br>
+					</div>
+					<input class="mt3 information" type="date" name="birthday"><br>
+					<button class="btn btn-primary submit mt-3" onclick="validateForm()">Submit</button>
+				</form>
+				<p id="firstname"></p>
+				<p id="lastname"></p>
+			</div>
+		</div>
+	</div>
+	<script>
+		function validateForm(){
+			var x = document.forms["myForm"]["fname"].value;
+			var y = document.forms["myForm"]["lname"].value;
+			var first = document.getElementById("fname");
+			var last = document.getElementById("lname");
+			if(x == ""){
+				alert("Please enter first name!!!");
+			}
+			if(y == ""){
+				alert("Please enter last name!!!")
+			}
+			document.getElementById("firstname").innerHTML = first;
+			document.getElementById("lastname").innerHTML = last;
+		}
+	</script>
+</body>
+</html>

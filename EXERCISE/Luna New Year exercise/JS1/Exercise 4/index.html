@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bai tap 4</title>
+	<link rel="stylesheet" type="text/css" href="css\bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 mx-auto">
+				<h3 class="p-2 text-center">Tìm giai thừa</h3>
+				<hr>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12">
+							<p>Nhập vào hệ số giai thừa:</p>
+							<input type="text" name="number1" id="gthua">
+							<input class="btn btn-primary my-3" type="button" name="timx" value="Tính giai thừa" onclick="calculation()">
+							<p id="result"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		function calculation() {
+			var n = document.getElementById('gthua').value;
+			gt = 1;
+			for (i = 1; i <= n; i++) {
+				gt = gt * i;
+			}
+			document.getElementById('result').innerHTML = n + "! =" + " " + gt;
+		}
+	</script>
+</body>
+</html>

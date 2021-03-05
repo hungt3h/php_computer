@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bai tap 2</title>
+	<link rel="stylesheet" type="text/css" href="css\bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 mx-auto">
+				<h3 class="p-2 text-center">Giải phương trình bậc nhất: ax + b = 0</h3>
+				<hr>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12">
+							<p>Nhập vào hệ số a:</p>
+							<input type="text" name="numbera" id="numbera">
+							<p>Nhập vào hệ số b:</p>
+							<input type="text" name="numberb" id="numberb">
+							<p>Phương trình bậc nhất của bạn đang có dạng</p>
+							<p id="equation"></p>
+							<input class="btn btn-primary" type="button" name="timx" value="Tìm x" onclick="Calculation()">
+							<p id="result"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		function Calculation(){
+			var numbera = document.getElementById('numbera').value;
+			var numberb = document.getElementById('numberb').value;
+			if (isNaN(numbera) || isNaN(numberb)) {
+				alert('Required to enter numbers only!!');
+			}
+			else {
+				document.getElementById('equation').innerHTML = numbera + "x +" + " " + " " + numberb + " " + "= 0";
+			}
+			var result = - numberb / numbera;
+			document.getElementById('result').innerHTML = "x = " + " " + result;
+		}
+	</script>
+</body>
+</html>

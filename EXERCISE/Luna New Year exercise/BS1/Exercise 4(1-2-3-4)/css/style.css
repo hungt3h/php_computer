@@ -1,0 +1,12 @@
+@media (max-width: 768px){
+	.login-container button, input{
+	border: none;
+	border-radius: 3px;
+	height: 30px;
+	}
+}
+.login-container button, input{
+	border: none;
+	border-radius: 3px;
+	height: 30px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="#" id="calcular" onsubmit="return validate()" class="d-flex flex-column w-25 m-auto">
+            <div class="p-1 bg-warning">Số chẵn lẻ</div>
+            <div class="m-auto d-flex flex-column w-100">
+                <label>Nhập số a</label>
+                <input type="text" name="number" id="number">
+            </div>
+            <div class="mt-2">
+                <button class="btn btn-success">Kết quả</button>
+            </div>
+        </form>
+        <p class="text-primary w-25 m-auto" id="result_odd"></p>
+        <p class="text-primary w-25 m-auto" id="result_even"></p>
+    </div>
+</body>
+<script>
+    $().ready(function() {
+        $("#calcular").validate({
+            onfocusout: false,
+            onkeyup: false,
+            onclick: false,
+            rules: {
+                "number": {
+                    required: true,
+                    number: true
+                }
+            },
+            messages: {
+                "number": {
+                    required: "Không được để trống dữ liệu",
+                    number: "Cần nhập dữ liệu là số",
+                },
+            }
+        });
+    });
+    function validate(){
+        number = parseInt($('#number').val());
+        if (number){
+            odd = 'Các số chẵn từ 1-' + number + ' là :';
+            even = 'Các lẻ chẵn từ 1-' + number + ' là :';
+            for (i = 1; i <= number; i++){
+                if ( i % 2 == 0 ){
+                    odd +=' '+i;
+                }else {
+                    even +=' '+i;
+                }
+            }
+        }
+        $('#result_odd').html(
+            odd
+        );
+        $('#result_even').html(
+            even
+        );
+        return false
+    }
+</script>
+</html>

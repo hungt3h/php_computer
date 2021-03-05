@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="#" id="calcular" onsubmit="return validate()" class="d-flex flex-column w-25 m-auto">
+            <div class="p-1 bg-warning">Chu vi và diện tích hình chữ nhật</div>
+            <div class="m-auto d-flex flex-column w-100">
+                <label>Nhập chiều dài (đơn vị:mét)</label>
+                <input type="text" name="long" id="long">
+            </div>
+            <div class="m-auto d-flex flex-column w-100">
+                <label>Nhập chiều rộng (đơn vị:mét)</label>
+                <input type="text" name="large" id="large">
+            </div>
+            <div class="mt-2">
+                <button class="btn btn-success">Tính chu vi và diện tích</button>
+            </div>
+        </form>
+        <p class="text-primary w-25 m-auto" id="result"></p>
+    </div>
+</body>
+<script>
+    $().ready(function() {
+        $("#calcular").validate({
+            onfocusout: false,
+            onkeyup: false,
+            onclick: false,
+            rules: {
+                "long": {
+                    required: true,
+                    number: true
+                },
+                "large": {
+                    required: true,
+                    number: true
+                },
+            },
+            messages: {
+                "long": {
+                    required: "Không được để trống dữ liệu",
+                    number: "Cần nhập dữ liệu là số",
+                },
+                "large": {
+                    required: "Không được để trống dữ liệu",
+                    number: "Cần nhập dữ liệu là số",
+                },
+            }
+        });
+    });
+    function validate(){
+       long = $('#long').val();
+       large = $('#large').val();
+       if (long && large){
+           Result = 'Chu vi: ' + (parseInt(long) + parseInt(large)) * 2 + 'm' + '<br>' + 'Diện tích: ' +
+               + (parseInt(long) * parseInt(large)) + 'm<sup>2</sup>';
+       }
+        $('#result').html(Result);
+        return false
+    }
+</script>
+</html>

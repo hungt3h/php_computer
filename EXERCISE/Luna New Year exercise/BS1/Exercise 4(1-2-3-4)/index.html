@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bai tap 4</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav col-md-6">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Features</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Dropdown</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">abc</a>
+								<a class="dropdown-item" href="#">xyz</a>
+								<a class="dropdown-item" href="#">def</a>
+							</div>
+						</li>
+					</ul>
+					<div class="login-container col-md-6 p-1">
+						<form action="#">
+							<input type="email" placeholder="Email" name="email">
+							<input type="password" placeholder="Password" name="pwd">
+							<button class="bg-success" type="submit">Sign in</button>	
+						</form>
+					</div>
+				</div>	
+			</nav>
+			<div class="jumbotron">
+				<h1 class="display-4 mt-5">Hello, world!</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti quod ratione oerspiciatis molestias minus id, velit, onsectetur voluptatibus et obcaecati hic magnam alias, cumque autem. Hic quis ipsum harum.</p>
+				<p class="lead">
+					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalbox" role="button">Learn more</button>
+					<div class="modal fade" id="modalbox">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h4 class="modal-title">Sample modal title</h4>
+									<button type="button" class="close btn" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ullam a earum recusandae voluptate laboriosam repellat neque evaniet temboribus corporis! Neque nesciunt voluptate, commodi numquam cumque excepturi praesentium impedit minima!</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Save changes</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</p>
+			</div>
+			<div class="alert alert-warning alert-dismissible">
+	            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+	            <button class="close btn" data-dismiss="alert" aria-label="Close">&times;</button>
+         	</div>
+			<div class="row mt-5">
+				<div class="col-12 col-sm-4 col-md-4 col-lg-4">
+					<h2>Heading</h2>
+					<span>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptatibus eos illum sunt voluptate assumenda magni quibusdam. Impedit, aliquid? Voluptatum doloremque repellendus ut at laborum architecto explicabo facere ad. Quisquam!
+					</span>
+					<br>
+					<a href="#" class="btn"><i class="far fa-thumbs-up"></i>  View details</a>
+				</div>
+				<div class="col-12 col-sm-4 col-md-4 col-lg-4">
+					<h2>Heading</h2>
+					<span>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptatibus eos illum sunt voluptate assumenda magni quibusdam. Impedit, aliquid? Voluptatum doloremque repellendus ut at laborum architecto explicabo facere ad. Quisquam!
+					</span>
+					<br>
+					<a href="#" class="btn"><i class="fas fa-mobile-alt"></i>  View details</a>
+				</div>
+				<div class="col-12 col-sm-4 col-md-4 col-lg-4">
+					<h2 data-toggle="modal" data-target="#new">
+						Heading 
+						<span class="badge bg-primary" >NEW</span>
+					</h2>
+					<div class="modal fade" id="new">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h4 class="modal-title">Contact Us</h4>
+									<button type="button" class="close btn" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body">
+									<div class="form-group">
+						            	<label for="recipient-name" class="col-form-label">Guest name:</label>
+						            	<input type="text" class="form-control" id="recipient-name">
+						          	</div>
+						          	<div class="form-group">
+						            	<label for="message-text" class="col-form-label">Feedback:</label>
+						            	<textarea class="form-control" id="message-text"></textarea>
+						         	</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-primary">Send</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<span>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptatibus eos illum sunt voluptate assumenda magni quibusdam. Impedit, aliquid? Voluptatum doloremque repellendus ut at laborum architecto explicabo facere ad. Quisquam!
+					</span>
+					<br>
+					<a href="#" class="btn"><i class="fas fa-map-marker-alt"></i>  View details</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
