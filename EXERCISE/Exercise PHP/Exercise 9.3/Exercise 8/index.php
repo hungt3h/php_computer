@@ -15,7 +15,7 @@
 <body>
     <table border="1">
     <?php
-    function isPrimeNumber($number){
+    function findPrimeNumber($number){
         if ($number < 2) {
             return false;
         }
@@ -34,7 +34,7 @@
             for ($j = 0; $j < 10; $j++ ) {
                 $count++;
                 ?>
-                <td class="box <?php if (isPrimeNumber($count)) echo 'green' ?>" ><?php echo $count; ?></td>
+                <td class="box <?php if (findPrimeNumber($count)) echo 'green' ?>" ><?php echo $count; ?></td>
                 
             <?php } ?>
         </tr>
