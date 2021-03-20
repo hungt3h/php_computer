@@ -1,0 +1,9 @@
+.information {
+	height: 30px;
+}
+.message, .information {
+	width: 90%;
+}
+.message {
+	height: 100px;
+}

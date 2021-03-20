@@ -35,7 +35,6 @@
                 $count++;
                 ?>
                 <td class="box <?php if (findPrimeNumber($count)) echo 'green' ?>" ><?php echo $count; ?></td>
-                
             <?php } ?>
         </tr>
     <?php } ?>
