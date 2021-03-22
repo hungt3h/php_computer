@@ -45,7 +45,7 @@
                     <label>Nhớ mật khẩu</label>
                     <a href="#" class="float-right">Quên mật khẩu?</a>
                     <p class="mt-3">Cần email xác minh mới <a href="#">Gửi lại</a></p>
-                    <input href="./index.php" type="submit" name="submit" class="form-control btn-primary" value="Đăng nhập">
+                    <input href="index.php" type="submit" name="submit" class="form-control btn-primary" value="Đăng nhập">
                     <p class="text-center m-3">Bạn chưa có tài khoản</p>
                     <a href="#" class="form-control btn btn-info">Đăng ký</a>
                 </form>

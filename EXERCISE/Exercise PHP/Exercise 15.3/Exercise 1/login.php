@@ -5,6 +5,16 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
+    <?php
+        setcookie("username", "admin", time() + 60, "/");
+        setcookie("password", "Iamnotarobot@Mis2022", time() + 60, "/");
+        $err = "";
+        if (isset($_POST["submit"])) {
+            if ($_POST["password"] != $_COOKIE["password"]) {
+                $err = "Mật khẩu không chính xác";
+            }
+        }
+    ?>
     <div class="container">
         <form action="index.php" method="post">
             <div class="form-group">
@@ -15,12 +25,8 @@
                 <label for="password1">Password</label>
                 <input type="password" class="form-control" name="password" placeholder="Password" required>
             </div>
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="check1">
-                <label class="form-check-label" for="check1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Login</button>
-            <button type="reset" class="btn btn-primary">Reset</button>
+            <?php echo $err; ?>
+            <button type="submit" class="btn btn-primary" name="submit" value="submit">Login</button>
         </form>
     </div>
 </body>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bai tap 1</title>
+    <title>Bai tap 2</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
@@ -12,11 +12,14 @@
         }
         if(isset($_SESSION['username'])){
             $username= $_SESSION['username'];
+            echo "Đăng nhập thành công! <br>";
             echo 'xin chào '.$username. "<br>";
+            echo "Thời gian hiện tại đang login: " . date("d/m/Y"). " -- ". date("d:m:Y");
         }else{
             echo '<script>location.assign("login.php")</script>';
         }
     ?>
+    <br>
     <a href="logout.php">Logout</a>
 </body>
 </html>

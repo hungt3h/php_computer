@@ -1,0 +1,19 @@
+.sign {
+	background-color: #99ff99;
+	border-top-left-radius: 45px;
+	border-top-right-radius: 45px;
+}
+.information, .sign {
+	border: none;
+}
+.name, .password, .login {
+	width: 95%;
+	height: 50px;
+}
+.login {
+	border: none;
+	background-color: #99ff99;
+}
+.lightgreen {
+	color: lightgreen;
+}
