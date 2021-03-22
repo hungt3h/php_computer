@@ -16,8 +16,8 @@
             } else {
                 $username = $_POST['text'];
             }
-            if (!isset($_POST['password'])) {
-                $passwordErr = "<p class='text-danger'>Cần check ít nhất 1 trường checkbox</p>";
+            if (empty($_POST['password'])) {
+                $passwordErr = "<p class='text-danger'>Trường text không được để trống</p>";
             } else {
                 $password = $_POST['password'];
             }

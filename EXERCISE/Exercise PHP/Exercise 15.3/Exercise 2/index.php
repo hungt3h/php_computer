@@ -11,7 +11,7 @@
             $_SESSION['username'] = $_POST['username'];
         }
         if(isset($_SESSION['username'])){
-            $username= $_SESSION['username'];
+            $username = $_SESSION['username'];
             echo "Đăng nhập thành công! <br>";
             echo 'xin chào '.$username. "<br>";
             echo "Thời gian hiện tại đang login: " . date("d/m/Y"). " -- ". date("d:m:Y");
